@@ -1,0 +1,265 @@
+{
+  "HTML": [
+    {
+      "question": "What does the <a> tag in HTML stand for?",
+      "options": ["Anchor", "Article", "Attribute", "Application"],
+      "answer": "Anchor"
+    },
+    {
+      "question": "Which HTML element is used to display the largest heading?",
+      "options": ["<h1>", "<h6>", "<header>", "<heading>"],
+      "answer": "<h1>"
+    },
+    {
+      "question": "Which attribute is used to provide an alternative text for an image?",
+      "options": ["title", "alt", "src", "description"],
+      "answer": "alt"
+    },
+    {
+      "question": "What is the correct HTML element for inserting a line break?",
+      "options": ["<br>", "<lb>", "<break>", "<line>"],
+      "answer": "<br>"
+    },
+    {
+      "question": "Which tag is used to create a table in HTML?",
+      "options": ["<table>", "<tr>", "<td>", "<th>"],
+      "answer": "<table>"
+    },
+    {
+      "question": "Which attribute specifies a unique identifier for an element?",
+      "options": ["id", "class", "name", "type"],
+      "answer": "id"
+    },
+    {
+      "question": "What is the correct HTML element for playing audio files?",
+      "options": ["<audio>", "<sound>", "<media>", "<play>"],
+      "answer": "<audio>"
+    },
+    {
+      "question": "What does the <meta> tag do?",
+      "options": [
+        "Defines metadata about an HTML document",
+        "Creates a link to another document",
+        "Defines an image map",
+        "Adds a style to the document"
+      ],
+      "answer": "Defines metadata about an HTML document"
+    },
+    {
+      "question": "Which tag is used to define a hyperlink?",
+      "options": ["<a>", "<link>", "<href>", "<hyper>"],
+      "answer": "<a>"
+    },
+    {
+      "question": "What is the correct way to comment in HTML?",
+      "options": ["<!-- Comment -->", "// Comment", "/* Comment */", "<! Comment !>"],
+      "answer": "<!-- Comment -->"
+    }
+  ],
+  "CSS": [
+    {
+      "question": "Which property is used to change the background color of an element?",
+      "options": ["color", "background-color", "bgcolor", "background"],
+      "answer": "background-color"
+    },
+    {
+      "question": "What does the `z-index` property in CSS control?",
+      "options": ["Position", "Visibility", "Stacking order", "Size"],
+      "answer": "Stacking order"
+    },
+    {
+      "question": "How do you apply a class to an element in CSS?",
+      "options": ["#className", ".className", "class:className", "::className"],
+      "answer": ".className"
+    },
+    {
+      "question": "Which unit is NOT relative in CSS?",
+      "options": ["em", "rem", "%", "px"],
+      "answer": "px"
+    },
+    {
+      "question": "Which property controls the space between lines of text?",
+      "options": ["letter-spacing", "line-height", "spacing", "text-indent"],
+      "answer": "line-height"
+    },
+    {
+      "question": "What is the default position value in CSS?",
+      "options": ["relative", "absolute", "fixed", "static"],
+      "answer": "static"
+    },
+    {
+      "question": "Which property is used to make text bold?",
+      "options": ["font-weight", "text-style", "font-size", "text-decoration"],
+      "answer": "font-weight"
+    },
+    {
+      "question": "What is the correct syntax for a CSS comment?",
+      "options": ["// Comment", "/* Comment */", "<!-- Comment -->", "'' Comment ''"],
+      "answer": "/* Comment */"
+    },
+    {
+      "question": "Which pseudo-class targets the first child of an element?",
+      "options": [":first", ":first-child", ":nth-child(1)", ":child(1)"],
+      "answer": ":first-child"
+    },
+    {
+      "question": "What is the purpose of the `overflow` property?",
+      "options": [
+        "Defines the visibility of an element",
+        "Controls what happens when content overflows its container",
+        "Sets the height of an element",
+        "Defines the margin of an element"
+      ],
+      "answer": "Controls what happens when content overflows its container"
+    }
+  ],
+  "JavaScript": [
+    {
+      "question": "Which method is used to add an element to the end of an array?",
+      "options": ["push()", "pop()", "shift()", "unshift()"],
+      "answer": "push()"
+    },
+    {
+      "question": "What is the output of `typeof null`?",
+      "options": ["object", "null", "undefined", "string"],
+      "answer": "object"
+    },
+    {
+      "question": "Which symbol is used to denote an array in JavaScript?",
+      "options": ["{}", "[]", "()", "<>"],
+      "answer": "[]"
+    },
+    {
+      "question": "Which method can be used to convert a JSON string into a JavaScript object?",
+      "options": ["JSON.parse()", "JSON.stringify()", "JSON.objectify()", "JSON.toObject()"],
+      "answer": "JSON.parse()"
+    },
+    {
+      "question": "Which keyword is used to declare a variable that cannot be reassigned?",
+      "options": ["const", "let", "var", "immutable"],
+      "answer": "const"
+    },
+    {
+      "question": "What will `console.log(2 + '2')` output?",
+      "options": ["4", "'4'", "'22'", "NaN"],
+      "answer": "'22'"
+    },
+    {
+      "question": "Which method is used to remove the first element of an array?",
+      "options": ["shift()", "unshift()", "pop()", "splice()"],
+      "answer": "shift()"
+    },
+    {
+      "question": "What does the `this` keyword refer to in JavaScript?",
+      "options": [
+        "The global object",
+        "The current function",
+        "The object that owns the code",
+        "The parent object"
+      ],
+      "answer": "The object that owns the code"
+    },
+    {
+      "question": "What is the purpose of `isNaN()`?",
+      "options": [
+        "Checks if a variable is null",
+        "Checks if a value is a number",
+        "Checks if a value is not a number",
+        "Checks if a variable is undefined"
+      ],
+      "answer": "Checks if a value is not a number"
+    },
+    {
+      "question": "What is the correct syntax for an arrow function?",
+      "options": [
+        "() => {}",
+        "function() => {}",
+        "=> function() {}",
+        "function => {}"
+      ],
+      "answer": "() => {}"
+    }
+  ],
+  "ReactJS": [
+    {
+      "question": "What is the purpose of `useState` in React?",
+      "options": [
+        "To handle routing",
+        "To create a new component",
+        "To add state to functional components",
+        "To manage global state"
+      ],
+      "answer": "To add state to functional components"
+    },
+    {
+      "question": "Which file extension is commonly used for React components?",
+      "options": [".jsx", ".js", ".react", ".component"],
+      "answer": ".jsx"
+    },
+    {
+      "question": "What is JSX?",
+      "options": [
+        "A syntax extension for JavaScript",
+        "A JavaScript framework",
+        "A styling tool",
+        "A template engine"
+      ],
+      "answer": "A syntax extension for JavaScript"
+    },
+    {
+      "question": "Which function is used to render a React element to the DOM?",
+      "options": ["render()", "ReactDOM.render()", "React.render()", "DOM.render()"],
+      "answer": "ReactDOM.render()"
+    },
+    {
+      "question": "What does `useEffect` in React allow you to do?",
+      "options": [
+        "Handle side effects in functional components",
+        "Manage state",
+        "Create new components",
+        "Render elements"
+      ],
+      "answer": "Handle side effects in functional components"
+    },
+    {
+      "question": "How do you pass data to a child component in React?",
+      "options": ["Props", "State", "Context", "Refs"],
+      "answer": "Props"
+    },
+    {
+      "question": "What is the default port for a React app?",
+      "options": ["8080", "3000", "5000", "4000"],
+      "answer": "3000"
+    },
+    {
+      "question": "What is React primarily used for?",
+      "options": [
+        "Building user interfaces",
+        "Managing databases",
+        "Developing server-side APIs",
+        "Creating operating systems"
+      ],
+      "answer": "Building user interfaces"
+    },
+    {
+      "question": "What does React use to improve performance?",
+      "options": [
+        "Virtual DOM",
+        "Real DOM",
+        "Event delegation",
+        "Shadow DOM"
+      ],
+      "answer": "Virtual DOM"
+    },
+    {
+      "question": "What is a React component?",
+      "options": [
+        "A reusable piece of UI",
+        "A style definition",
+        "A routing function",
+        "A type of middleware"
+      ],
+      "answer": "A reusable piece of UI"
+    }
+  ]
+}
